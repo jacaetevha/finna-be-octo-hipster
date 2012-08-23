@@ -52,8 +52,9 @@ function titlepwd() {
 
 function tab_red()    { title "$1"; tab_color 195  89  76; }
 function tab_orange() { title "$1"; tab_color 219 154  88; }
-function tab_green()  { title "$1"; tab_color 145 185 104; }
+function tab_green()  { title "$1"; tab_color  65 174  76; }
 function tab_blue()   { title "$1"; tab_color  92 155 204; }
+function tab_yellow() { title "$1"; tab_color 240 240   0; }
 
 function tab_color() {
   echo -n -e "\033]6;1;bg;red;brightness;$1\a"
