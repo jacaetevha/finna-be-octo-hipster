@@ -9,6 +9,7 @@ for miscellaneous stuff:
 ![screenshot](https://github.com/jacaetevha/finna-be-octo-hipster/raw/master/screenshot.png)
 
 In addition, there are 2 AppleScripts here that will
+
 1. set up a series of iTerm tabs (7 in total), and change to your Rails directory
 2. set the colors and titles of the iTerm tabs to my defaults
 
