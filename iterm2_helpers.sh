@@ -31,20 +31,19 @@ echo "Usage:"
 echo "  `basename $0` \"title\" to provide a new Terminal title."
 }
 
-function set_terminal_title() {
+function set_iterm_title() {
 if [ $# -eq 0 ]
 then
   title_help0;
 elif [ $# -eq 1 ]
 then
-  # osascript -e "tell application \"Terminal\" to set custom title of window 1 to \"$1\""
   echo -ne "\033]0;$1\007"
 elif [ $# -gt 1 ]
 then
   title_help2;
 fi
 }
-alias title='set_terminal_title'
+alias title='set_iterm_title'
 
 function titlepwd() {
   set_terminal_title `pwd`
