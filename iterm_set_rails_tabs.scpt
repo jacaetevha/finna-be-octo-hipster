@@ -1,23 +1,30 @@
 tell application "iTerm"
   tell the current terminal
    tell the first session
+    #select current session
     write text "tab_red Server"
    end tell
 
    tell the second session
+    #select current session
     write text "tab_orange Console"
    end tell
-   
+
    tell the third session
-    write text "tab_blue SQL"
+    #select current session
+    write text "tab_blue DB"
    end tell
 
    tell the fourth session
+    #select current session
     write text "tab_green Tests"
    end tell
 
    tell the fifth session
+    #select current session
     write text "tab_yellow Rake"
    end tell
+
+   select the first session
   end tell
 end tell
