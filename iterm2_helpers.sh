@@ -46,7 +46,7 @@ fi
 alias title='set_iterm_title'
 
 function titlepwd() {
-  set_terminal_title `pwd`
+  set_iterm_title `pwd`
 }
 
 function tab_maroon { title "$1"; tab_color 128 0 0; }
