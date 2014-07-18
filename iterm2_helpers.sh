@@ -21,14 +21,14 @@ title_help0()
 {
 echo "ERROR: No argument provided."
 echo "Usage:"
-echo "  `basename $0` \"title\" to provide a new Terminal title."
+echo "  `basename -- $0` \"title\" to provide a new Terminal title."
 }
 
 title_help2()
 {
 echo "ERROR: Too many arguments provided."
 echo "Usage:"
-echo "  `basename $0` \"title\" to provide a new Terminal title."
+echo "  `basename -- $0` \"title\" to provide a new Terminal title."
 }
 
 function set_iterm_title() {
