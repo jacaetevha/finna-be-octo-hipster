@@ -203,3 +203,8 @@ function tab_color() {
   echo -n -e "\033]6;1;bg;green;brightness;$2\a"
   echo -n -e "\033]6;1;bg;blue;brightness;$3\a"
 }
+
+function tab_reset() {
+  echo -n -e "\033]6;1;bg;*;default\a"
+}
+
